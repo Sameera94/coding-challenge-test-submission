@@ -20,6 +20,17 @@
   transform: scale(0.95);
 }
 
-/** TODO: Create separate styles for .primary and .secondary variants of this button:
-* - Must use the CSS variables declared in App.css
-*/
+.loading {
+  margin-left: 8px;
+}
+
+.primary {
+  background: var(--color-brand);
+  color: white;
+}
+
+.secondary {
+  background: white;
+  color: var(--color-brand);
+  border-color: var(--color-brand);
+}
