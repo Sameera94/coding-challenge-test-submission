@@ -30,7 +30,7 @@
 }
 
 .secondary {
-  background: white;
+  background: transparent;
   color: var(--color-brand);
   border-color: var(--color-brand);
 }
